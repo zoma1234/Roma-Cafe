@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <!-- start-header -->
+ 
+  <div class="nav">
+    <div class="logo">
+        <a href="#">ROMA CAFE</a>
+    </div>
+    <ul class="nav_list" id="navlist">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="icon" onclick=" my_toggle()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div> 
+
+<header id="Home">
+   <div>
+    <h1>Welcome To Roma Cafe</h1>
+    <p><span>We Have</span> <span class="auto-type"></span></p>
+    <button class="action-button">submit</button>
+   </div>
+</header>
+<!-- end-header -->
+
+<!-- start-about -->
+  <section id="About" class="hero">
+    <div class="container-1">
+      <div>
+        <img src="image/photo_15_2024-11-30_22-36-47.jpg" alt="photo">
+      </div>
+
+      <div class="caption">
+        <h2 class="fw-bold fs-1">About Us</h2>
+        <p>Cold drink, dolor sit amet consectetur adipisicing elit. Officiis atque vitae a tempora nemo, corporis
+          dignissimos cum iure nam ad facilis ex ut impedit asperiores esse, cumque quidem in quia architecto amet qui
+          quisquam, dolor assumenda? Magnam odit ipsum at sapiente hic eveniet provident, modi iure doloremque quaerat
+          voluptas dolorum non est consequatur doloribus delectus ducimus enim saepe quisquam? Praesentium.Lorem ipsum,
+        </p>
+        <button class="btn-2 p-2">Download <i class="fa-solid fa-download"></i></button>
+        <button class="btn-3 p-2">Buyproduct <i class="fa-solid fa-money-check-dollar"></i></button>
+      </div>
+    </div>
+  </section>
+<!-- end-about -->
+
+<!-- start-gallery -->
+  <section id="Gallery" class="our-gallery">
+    <div>
+      <h2 class="fw-bold fs-1"> Our Cakes</h2>
+    </div>
+
+    <div class="photos">
+      <div class="child">
+        <img src="image/ben-garratt.jpg" alt="">
+
+      </div>
+
+      <div class="child">
+        <img src="image/clem-onojeghuo.jpg" alt="">
+
+      </div>
+
+      <div class="child">
+        <img src="image/stas-ovsky.jpg" alt="">
+
+      </div>
+      <div class="child">
+        <img src="image/stas-ovsky.jpg" alt="">
+
+
+      </div>
+      <div class="child">
+        <img src="image/ben-garratt.jpg" alt="">
+
+      </div>
+      <div class="child">
+        <img src="image/clem-onojeghuo.jpg" alt="">
+
+
+      </div>
+    </div>
+
+
+  </section>
+<!-- end-gallery -->
+
+ 
+<!-- srart-Contact -->
+<section id="contact" class="form-1">
+  <div>
+    <h2>Contact-Us</h2>
+  </div>
+  <div class="container-6">
+    <div class="mb-3">
+      <label for="f-name" class="form-label">First Name </label>
+      <input type="text" class="form-control" id="f-name" placeholder="Enter Your F-name">
+    </div>
+
+    <div class="mb-3">
+      <label for="l-name" class="form-label">Last Name </label>
+      <input type="text" class="form-control" id="l-name" placeholder="Enter Your L-name">
+    </div>
+
+    <div class="mb-3">
+      <label for="f-name" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="f-name" placeholder="Enter Your E-mail">
+    </div>
+  </div>
+  <button class="btn-4">Learn More</button>
+</section>
+<!-- end-Contact -->
+
+<!-- start-footer -->
+ <footer>
+<p>&copy; Welcom To My WebSite</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+ </footer>
+<!-- end-footer -->
+
+
+
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: [" Cakes", "JUICES", "COFFEE "],
+      typeSpeed: 70,
+      backSpeed: 50,
+      loop: true
+    })
+  </script>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
